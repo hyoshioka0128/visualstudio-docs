@@ -18,7 +18,7 @@ jobs:
       pull-requests: write
 
     steps:
-      - uses: actions/checkout@b80ff79f1755d06ba70441c368a6fe801f5f3a62
+      - uses: actions/checkout@d632683dd7b4114ad314bca15554477dd762a938
 
       - name: "Print manual run reason"
         if: ${{ github.event_name == 'workflow_dispatch' }}
